@@ -31,6 +31,12 @@
     </div>
   <?php else: ?>
   <?php endif; ?>
+  <?php if ($content['sidebar_content']): ?>
+    <div class="column aside">
+        <?php print $content['sidebar_content']; ?>
+    </div>
+  <?php else: ?>
+  <?php endif; ?>
   <?php if ($content['postscript']): ?>
     <div class="postscript-wrapper">
       <div class="grid-container">

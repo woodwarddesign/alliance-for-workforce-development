@@ -648,17 +648,6 @@ dd {
   margin: 0;
 }
 
-/* line 5, ../sass/panels-layouts/_default-site-layout.scss */
-.panel-top,
-.panel-middle,
-.panel-bottom {
-  content: "";
-  display: table;
-  clear: both;
-  margin-bottom: 2rem;
-  width: 100%;
-}
-
 /* line 3, ../sass/components/_views.scss */
 .view .row {
   border-bottom: 1px solid white;
