@@ -32,7 +32,7 @@
   <?php else: ?>
   <?php endif; ?>
   <?php if ($content['sidebar_content']): ?>
-    <div class="column aside">
+    <div class="column aside region-sidebar-second">
         <?php print $content['sidebar_content']; ?>
     </div>
   <?php else: ?>
