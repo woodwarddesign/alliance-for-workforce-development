@@ -215,7 +215,7 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'prometheus',
+      'database' => 'workforce-alliance',
       'username' => 'root',
       'password' => 'root',
       'host' => 'localhost',
