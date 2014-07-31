@@ -24,10 +24,11 @@
   <?php else: ?>
   <?php endif; ?>
   <div id="main" class="content-wrapper">
+    <div id="content" class="column grid-container" role="main">
     <?php if ($content['main_content']): ?>
-      <div id="content" class="column grid-container" role="main">
+        <div class="region-content">
         <?php print $content['main_content']; ?>
-      </div>
+        </div>
     <?php else: ?>
     <?php endif; ?>
     <?php if ($content['sidebar_content']): ?>
@@ -36,6 +37,7 @@
       </div>
     <?php else: ?>
     <?php endif; ?>
+  </div>
   </div>
   <?php if ($content['postscript']): ?>
     <div class="postscript-wrapper">
