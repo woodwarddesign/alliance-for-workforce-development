@@ -1402,28 +1402,29 @@ img.header__logo-image {
   bottom: 2rem;
   color: #fefefe;
   left: 0;
+  padding-left: 17.5px;
   position: absolute;
   z-index: 10;
 }
 
-/* line 60, ../sass/components/_regions.scss */
+/* line 61, ../sass/components/_regions.scss */
 #content {
   background: white;
   overflow: hidden;
 }
 
-/* line 65, ../sass/components/_regions.scss */
+/* line 66, ../sass/components/_regions.scss */
 #content .messages {
   margin-bottom: 1rem;
   padding: 20px;
 }
-/* line 68, ../sass/components/_regions.scss */
+/* line 69, ../sass/components/_regions.scss */
 #content .messages.status {
   background: #dfeff5;
   border: 1px solid #91c8dd;
 }
 
-/* line 75, ../sass/components/_regions.scss */
+/* line 76, ../sass/components/_regions.scss */
 .breadcrumb li {
   display: inline-block;
   list-style: none;
@@ -1432,21 +1433,21 @@ img.header__logo-image {
   font-size: 14.5px;
 }
 
-/* line 89, ../sass/components/_regions.scss */
+/* line 90, ../sass/components/_regions.scss */
 footer {
   clear: both;
 }
 
-/* line 93, ../sass/components/_regions.scss */
+/* line 94, ../sass/components/_regions.scss */
 .region-footer {
   padding: 10px 0;
 }
 
-/* line 97, ../sass/components/_regions.scss */
+/* line 98, ../sass/components/_regions.scss */
 .copyright {
   padding-bottom: 10px;
 }
-/* line 99, ../sass/components/_regions.scss */
+/* line 100, ../sass/components/_regions.scss */
 .copyright p {
   float: left;
   font-size: 12.5px;
@@ -1457,22 +1458,23 @@ footer {
   margin: 0 auto;
   max-width: 1000px;
   padding: 0 17.5px;
+  position: relative;
 }
-/* line 11, ../sass/components/_layout.scss */
+/* line 12, ../sass/components/_layout.scss */
 .grid-container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 20, ../sass/components/_layout.scss */
+/* line 21, ../sass/components/_layout.scss */
 .region-branding,
 .region-menu {
   float: left;
   width: 100%;
 }
 @media (min-width: 60em) {
-  /* line 20, ../sass/components/_layout.scss */
+  /* line 21, ../sass/components/_layout.scss */
   .region-branding,
   .region-menu {
     width: 50%;
@@ -1480,19 +1482,19 @@ footer {
 }
 
 @media (min-width: 60em) {
-  /* line 32, ../sass/components/_layout.scss */
+  /* line 33, ../sass/components/_layout.scss */
   .one-sidebar.sidebar-second .region-content {
     float: left;
     padding-right: 35px;
     width: 67%;
   }
-  /* line 36, ../sass/components/_layout.scss */
+  /* line 37, ../sass/components/_layout.scss */
   .one-sidebar.sidebar-second .region-content:after {
     content: "";
     display: table;
     clear: both;
   }
-  /* line 40, ../sass/components/_layout.scss */
+  /* line 41, ../sass/components/_layout.scss */
   .one-sidebar.sidebar-second .region-sidebar-second {
     clear: none;
     float: left;
@@ -1507,26 +1509,31 @@ footer {
 }
 
 /* line 9, ../sass/components/_misc.scss */
+.gray-bg {
+  background: #efefef;
+}
+
+/* line 15, ../sass/components/_misc.scss */
 #imce-content .form-item {
   display: inline-block;
 }
 
-/* line 15, ../sass/components/_misc.scss */
+/* line 21, ../sass/components/_misc.scss */
 #admin-menu {
   font-size: 15px;
 }
 
-/* line 19, ../sass/components/_misc.scss */
+/* line 25, ../sass/components/_misc.scss */
 #admin-menu li.admin-menu-account > a {
   background: #237ad9;
 }
 
-/* line 23, ../sass/components/_misc.scss */
+/* line 29, ../sass/components/_misc.scss */
 #admin-menu .dropdown li li.expandable ul {
   margin: -27px 0 0 160px;
 }
 
-/* line 28, ../sass/components/_misc.scss */
+/* line 34, ../sass/components/_misc.scss */
 .img-left {
   float: left;
   display: block;
@@ -1536,14 +1543,14 @@ footer {
   width: 100%;
 }
 @media (min-width: 40em) {
-  /* line 28, ../sass/components/_misc.scss */
+  /* line 34, ../sass/components/_misc.scss */
   .img-left {
     display: inline-block;
     max-width: 50%;
   }
 }
 
-/* line 41, ../sass/components/_misc.scss */
+/* line 47, ../sass/components/_misc.scss */
 .img-right {
   float: right;
   display: block;
@@ -1553,14 +1560,14 @@ footer {
   width: 100%;
 }
 @media (min-width: 40em) {
-  /* line 41, ../sass/components/_misc.scss */
+  /* line 47, ../sass/components/_misc.scss */
   .img-right {
     display: inline-block;
     max-width: 50%;
   }
 }
 
-/* line 56, ../sass/components/_misc.scss */
+/* line 62, ../sass/components/_misc.scss */
 ul.pager {
   background: none;
   border: none;
@@ -1571,30 +1578,30 @@ ul.pager {
   text-align: right;
 }
 
-/* line 66, ../sass/components/_misc.scss */
+/* line 72, ../sass/components/_misc.scss */
 ul.pager li {
   border: none;
   font-size: 15px;
   padding: .5em 0 .5em 1em;
 }
 
-/* line 72, ../sass/components/_misc.scss */
+/* line 78, ../sass/components/_misc.scss */
 ul.pager li a {
   border: none;
 }
 
-/* line 77, ../sass/components/_misc.scss */
+/* line 83, ../sass/components/_misc.scss */
 .pager li.pager-next,
 .pager li.pager-previous {
   text-transform: capitalize;
 }
 
-/* line 81, ../sass/components/_misc.scss */
+/* line 87, ../sass/components/_misc.scss */
 .pager li.pager-current {
   font-weight: normal;
 }
 
-/* line 85, ../sass/components/_misc.scss */
+/* line 91, ../sass/components/_misc.scss */
 .pager li, .pager li.pager-next, .pager li.pager-previous, .pager li.pager-last, .pager li.pager-first {
   border: none;
   margin-left: 1em;
@@ -1602,54 +1609,54 @@ ul.pager li a {
   text-align: right;
 }
 
-/* line 92, ../sass/components/_misc.scss */
+/* line 98, ../sass/components/_misc.scss */
 .pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
   display: inline-block;
 }
 
-/* line 97, ../sass/components/_misc.scss */
+/* line 103, ../sass/components/_misc.scss */
 .pager li.pager-next,
 .pager li.pager-current {
   float: right;
 }
 
-/* line 101, ../sass/components/_misc.scss */
+/* line 107, ../sass/components/_misc.scss */
 .pager li.pager-previous {
   float: left;
 }
 
-/* line 105, ../sass/components/_misc.scss */
+/* line 111, ../sass/components/_misc.scss */
 .item-list .pager li {
   padding: .25em 1em;
 }
 
-/* line 117, ../sass/components/_misc.scss */
+/* line 123, ../sass/components/_misc.scss */
 .messages.error {
   background: #f5dfdf;
   border: 2px solid #ce9e9e;
 }
-/* line 121, ../sass/components/_misc.scss */
+/* line 127, ../sass/components/_misc.scss */
 .messages.warning {
   background: #f8fad5;
   border: 2px solid #e5d35b;
 }
-/* line 125, ../sass/components/_misc.scss */
+/* line 131, ../sass/components/_misc.scss */
 .messages.info {
   background: #dfeff5;
   border: 2px solid #9ebcce;
 }
-/* line 129, ../sass/components/_misc.scss */
+/* line 135, ../sass/components/_misc.scss */
 .messages.success {
   background: #e8f5df;
   border: 2px solid #9ece9e;
 }
-/* line 133, ../sass/components/_misc.scss */
+/* line 139, ../sass/components/_misc.scss */
 .messages h2 {
   font-size: 1rem;
   font-weight: 300;
 }
 
-/* line 143, ../sass/components/_misc.scss */
+/* line 149, ../sass/components/_misc.scss */
 .messages.error,
 .messages.warning,
 .messages.info,
@@ -1658,7 +1665,7 @@ ul.pager li a {
   margin-bottom: 2rem;
   padding: 1rem;
 }
-/* line 147, ../sass/components/_misc.scss */
+/* line 153, ../sass/components/_misc.scss */
 .messages.error li,
 .messages.warning li,
 .messages.info li,
@@ -1666,7 +1673,7 @@ ul.pager li a {
   color: #222222;
 }
 
-/* line 153, ../sass/components/_misc.scss */
+/* line 159, ../sass/components/_misc.scss */
 .element-invisible {
   position: absolute !important;
   height: 1px;
@@ -1675,7 +1682,7 @@ ul.pager li a {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 157, ../sass/components/_misc.scss */
+/* line 163, ../sass/components/_misc.scss */
 .clearfix:after {
   content: "";
   display: table;

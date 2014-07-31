@@ -4,6 +4,12 @@
   @include clear-it;
 }
 
+// temp style for regions in prototype
+
+.gray-bg {
+  background: $light-gray;
+}
+
 // imce crop form
 
 #imce-content .form-item {
