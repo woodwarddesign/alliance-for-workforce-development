@@ -11,7 +11,7 @@ $pad: 35px;
 .grid-container {
   margin: 0 auto;
   max-width: $max-width;
-  padding: 0 ($pad / 2) $pad;
+  padding: 0 ($pad / 2);
   &:after {
     content: "";
     display: table;

@@ -17,9 +17,7 @@
   </div>
   <?php if ($content['preface']): ?>
     <div class="preface-wrapper">
-      <div class="grid-container">
-        <?php print $content['preface']; ?>
-      </div>
+      <?php print $content['preface']; ?>
     </div>
   <?php else: ?>
   <?php endif; ?>
@@ -47,13 +45,14 @@
     </div>
   <?php else: ?>
   <?php endif; ?>
-  <?php if ($content['footer']): ?>
+
     <div class="footer-wrapper">
       <footer class="grid-container">
-        <?php print $content['footer']; ?>
+        <?php if ($content['footer']): ?>
+          <?php print $content['footer']; ?>
+        <?php else: ?>
+        <?php endif; ?>
         <div class="copyright"><p>Copyright &copy; <?php echo(date("Y",time ())); ?>Alliance for Workforce Development, Inc. All Rights Reserved.</p></div>
       </footer>
     </div>
-  <?php else: ?>
-  <?php endif; ?>
 </section>
