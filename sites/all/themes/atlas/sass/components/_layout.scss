@@ -29,74 +29,7 @@ $pad: 35px;
   }
 }
 
-
-@include breakpoint($tab) {
-
-  .two-sidebars {
-    .region-content {
-      float: left;
-      padding-right: $pad;
-      width: 67%;
-      &:after {
-        @include clear-it;
-      }
-    }
-
-    .region-sidebar-first {
-      float: left;
-      width: 33%;
-    }
-    .region-sidebar-second {
-      float: left;
-      width: 33%;
-    }
-  }
-} // end $tab breakpoint
-
 @include breakpoint($desk) {
-  // two sidebars, one on either side of content
-  .two-sidebars {
-    .region-content {
-      float: left;
-      margin-left: 25%;
-      padding-right: $pad;
-      width: 50%;
-      &:after {
-        @include clear-it;
-      }
-    }
-    .region-sidebar-first {
-      clear: none;
-      float: left;
-      margin-left: -75%;
-      padding-right: $pad;
-      width: 25%;
-    }
-    .region-sidebar-second {
-      float: left;
-      width: 25%;
-    }
-  } // end two-sidebars
-
-  // one sidebar, sidebar first
-  .one-sidebar.sidebar-first {
-    .region-content {
-      float: left;
-      margin-left: 33%;
-      padding-right: $pad;
-      width: 67%;
-      &:after {
-        @include clear-it;
-      }
-    }
-    .region-sidebar-first {
-      clear: none;
-      float: left;
-      margin-left: -100%;
-      width: 33%;
-      padding-right: $pad;
-    }
-  } // end one sidebar, sidebar first
 
   // one sidebar, sidebar second
   .one-sidebar.sidebar-second {

@@ -6,8 +6,11 @@
 
 .header-wrapper {
   background: $dark-gray;
+  padding: 1rem 0;
+}
+
+.not-front .header-wrapper {
   margin-bottom: 1rem;
-  padding-top: 1rem;
 }
 
 img.header__logo-image {
@@ -37,8 +40,13 @@ img.header__logo-image {
 
 // preface region
 
-
-
+.preface-wrapper {
+  margin-bottom: 1rem;
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
 
 // content region
 
