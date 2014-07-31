@@ -81,7 +81,6 @@ a.menu-link {
 
 .main-menu-1 li a,
 a.menu-link {
-  color: $white;
   font-family: $header-font-family;
   font-weight: 100;
 }
@@ -194,7 +193,8 @@ footer .region-footer p a.toggled {
   }
 
   a.menu-link {
-      display: none;
+    color: $white;
+    display: none;
   }
 
   .main-menu-1 ul {
