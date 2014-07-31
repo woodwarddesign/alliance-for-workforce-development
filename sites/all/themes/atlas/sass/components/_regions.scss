@@ -51,14 +51,7 @@ img.header__logo-image {
     color: $white;
     left: 0;
     position: absolute;
-    margin: 0 auto;
-    max-width: $max-width;
-    padding: 0 ($pad / 2);
-    &:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+    z-index: 10;
   }
 }
 
