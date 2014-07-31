@@ -23,10 +23,20 @@
           </div>
         <?php else: ?>
         <?php endif; ?>
+        <?php if ($content['postscript']): ?>
+          <div class="postscript-wrapper">
+            <div class="grid-container">
+              <?php print $content['postscript']; ?>
+            </div>
+          </div>
+        <?php else: ?>
+        <?php endif; ?>
         <?php if ($content['footer']): ?>
-          <footer class="grid-container">
-            <?php print $content['footer']; ?>
-          </footer>
+          <div class="footer-wrapper">
+            <footer class="grid-container">
+              <?php print $content['footer']; ?>
+            </footer>
+          </div>
         <?php else: ?>
         <?php endif; ?>
 </section>
