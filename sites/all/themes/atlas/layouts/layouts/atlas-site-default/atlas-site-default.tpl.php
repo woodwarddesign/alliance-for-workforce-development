@@ -23,20 +23,20 @@
     </div>
   <?php else: ?>
   <?php endif; ?>
-  <?php if ($content['main_content']): ?>
-    <div id="main" class="content-wrapper">
+  <div id="main" class="content-wrapper">
+    <?php if ($content['main_content']): ?>
       <div id="content" class="column grid-container" role="main">
         <?php print $content['main_content']; ?>
       </div>
-    </div>
-  <?php else: ?>
-  <?php endif; ?>
-  <?php if ($content['sidebar_content']): ?>
-    <div class="column aside region-sidebar-second">
-        <?php print $content['sidebar_content']; ?>
-    </div>
-  <?php else: ?>
-  <?php endif; ?>
+    <?php else: ?>
+    <?php endif; ?>
+    <?php if ($content['sidebar_content']): ?>
+      <div class="column aside region-sidebar-second">
+          <?php print $content['sidebar_content']; ?>
+      </div>
+    <?php else: ?>
+    <?php endif; ?>
+  </div>
   <?php if ($content['postscript']): ?>
     <div class="postscript-wrapper">
       <div class="grid-container">
