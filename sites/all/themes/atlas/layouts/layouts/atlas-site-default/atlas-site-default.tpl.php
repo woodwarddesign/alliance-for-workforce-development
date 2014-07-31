@@ -15,28 +15,36 @@
          <?php endif; ?>
     </header>
   </div>
-        <?php if ($content['main_content']): ?>
-          <div id="main" class="content-wrapper">
-            <div id="content" class="column grid-container" role="main">
-              <?php print $content['main_content']; ?>
-            </div>
-          </div>
-        <?php else: ?>
-        <?php endif; ?>
-        <?php if ($content['postscript']): ?>
-          <div class="postscript-wrapper">
-            <div class="grid-container">
-              <?php print $content['postscript']; ?>
-            </div>
-          </div>
-        <?php else: ?>
-        <?php endif; ?>
-        <?php if ($content['footer']): ?>
-          <div class="footer-wrapper">
-            <footer class="grid-container">
-              <?php print $content['footer']; ?>
-            </footer>
-          </div>
-        <?php else: ?>
-        <?php endif; ?>
+  <?php if ($content['preface']): ?>
+    <div class="preface-wrapper">
+      <div class="grid-container">
+        <?php print $content['preface']; ?>
+      </div>
+    </div>
+  <?php else: ?>
+  <?php endif; ?>
+  <?php if ($content['main_content']): ?>
+    <div id="main" class="content-wrapper">
+      <div id="content" class="column grid-container" role="main">
+        <?php print $content['main_content']; ?>
+      </div>
+    </div>
+  <?php else: ?>
+  <?php endif; ?>
+  <?php if ($content['postscript']): ?>
+    <div class="postscript-wrapper">
+      <div class="grid-container">
+        <?php print $content['postscript']; ?>
+      </div>
+    </div>
+  <?php else: ?>
+  <?php endif; ?>
+  <?php if ($content['footer']): ?>
+    <div class="footer-wrapper">
+      <footer class="grid-container">
+        <?php print $content['footer']; ?>
+      </footer>
+    </div>
+  <?php else: ?>
+  <?php endif; ?>
 </section>

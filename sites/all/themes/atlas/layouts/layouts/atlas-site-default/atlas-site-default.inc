@@ -13,6 +13,7 @@ $plugin = array(
   'regions' => array(
   'branding' => t('Branding'),
   'menu' => t('Menu'),
+  'preface' => t('Preface'),
   'main_content' => t('Main Content'),
   'postscript' => t('Postscript'),
   'footer' => t('Footer Content'),
