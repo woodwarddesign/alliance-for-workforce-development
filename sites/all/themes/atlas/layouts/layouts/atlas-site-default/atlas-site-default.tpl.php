@@ -52,7 +52,7 @@
           <?php print $content['footer']; ?>
         <?php else: ?>
         <?php endif; ?>
-        <div class="copyright"><p>Copyright &copy; <?php echo(date("Y",time ())); ?>Alliance for Workforce Development, Inc. All Rights Reserved.</p></div>
+        <div class="copyright"><p>Copyright &copy; <?php echo(date("Y",time ())); ?> Alliance for Workforce Development, Inc. All Rights Reserved.</p></div>
       </footer>
     </div>
 </section>

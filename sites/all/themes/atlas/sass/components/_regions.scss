@@ -46,6 +46,20 @@ img.header__logo-image {
     height: auto;
     width: 100%;
   }
+  .page-title {
+    bottom: 2rem;
+    color: $white;
+    left: 0;
+    position: absolute;
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 0 ($pad / 2);
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
 }
 
 // content region
