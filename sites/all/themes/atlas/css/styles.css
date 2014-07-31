@@ -1209,54 +1209,53 @@ footer .region-footer p a.toggled {
 
   /* line 150, ../sass/components/_menus.scss */
   .js .main-menu-1 {
-    background-color: #fefefe;
     max-height: none;
     overflow: visible;
     z-index: 1000;
   }
 
-  /* line 157, ../sass/components/_menus.scss */
+  /* line 156, ../sass/components/_menus.scss */
   .main-menu-1 {
     margin-top: 0;
   }
 
-  /* line 161, ../sass/components/_menus.scss */
+  /* line 160, ../sass/components/_menus.scss */
   .main-menu-1 li.expanded > a:after {
     content: '';
   }
 
-  /* line 165, ../sass/components/_menus.scss */
+  /* line 164, ../sass/components/_menus.scss */
   .main-menu-1 li.expanded > a.toggled:after {
     content: '';
   }
 
-  /* line 169, ../sass/components/_menus.scss */
+  /* line 168, ../sass/components/_menus.scss */
   .main-menu-1 li.expanded > a:after {
     content: '';
   }
 
-  /* line 173, ../sass/components/_menus.scss */
+  /* line 172, ../sass/components/_menus.scss */
   .main-menu-1 li.expanded {
     padding-bottom: .5em;
   }
 
-  /* line 177, ../sass/components/_menus.scss */
+  /* line 176, ../sass/components/_menus.scss */
   .main-menu-1 li {
     border-top: none;
     padding: .5em 1em;
   }
 
-  /* line 183, ../sass/components/_menus.scss */
+  /* line 182, ../sass/components/_menus.scss */
   .main-menu-1 > ul li.first {
     padding-left: 0;
   }
-  /* line 186, ../sass/components/_menus.scss */
+  /* line 185, ../sass/components/_menus.scss */
   .main-menu-1 > ul li.last {
     border-right: none;
     padding-right: 0;
   }
 
-  /* line 192, ../sass/components/_menus.scss */
+  /* line 191, ../sass/components/_menus.scss */
   .main-menu-1 li {
     display: inline-block;
     font-size: 14px;
@@ -1264,22 +1263,22 @@ footer .region-footer p a.toggled {
     font-weight: 300;
   }
 
-  /* line 199, ../sass/components/_menus.scss */
+  /* line 198, ../sass/components/_menus.scss */
   a.menu-link {
     display: none;
   }
 
-  /* line 203, ../sass/components/_menus.scss */
+  /* line 202, ../sass/components/_menus.scss */
   .main-menu-1 ul {
     display: none;
   }
 
-  /* line 207, ../sass/components/_menus.scss */
+  /* line 206, ../sass/components/_menus.scss */
   .main-menu-1 li:hover > ul {
     display: block;
   }
 
-  /* line 211, ../sass/components/_menus.scss */
+  /* line 210, ../sass/components/_menus.scss */
   .js .main-menu-1 .main-menu-2 {
     border: 1px solid #efefef;
     left: 7em;
@@ -1289,7 +1288,7 @@ footer .region-footer p a.toggled {
     text-align: left;
     width: 12em;
   }
-  /* line 219, ../sass/components/_menus.scss */
+  /* line 218, ../sass/components/_menus.scss */
   .js .main-menu-1 .main-menu-2 li {
     border-right: none;
     display: inline-block;
@@ -1299,12 +1298,12 @@ footer .region-footer p a.toggled {
     position: relative;
     width: 15.2em;
   }
-  /* line 227, ../sass/components/_menus.scss */
+  /* line 226, ../sass/components/_menus.scss */
   .js .main-menu-1 .main-menu-2 li a {
     display: block;
   }
 }
-/* line 237, ../sass/components/_menus.scss */
+/* line 236, ../sass/components/_menus.scss */
 .region-sidebar-first .menu li,
 .region-sidebar-second .menu li {
   border-bottom: 1px solid #efefef;
@@ -1312,17 +1311,17 @@ footer .region-footer p a.toggled {
   padding-bottom: .5em;
   padding-top: 0;
 }
-/* line 242, ../sass/components/_menus.scss */
+/* line 241, ../sass/components/_menus.scss */
 .region-sidebar-first .menu li.last,
 .region-sidebar-second .menu li.last {
   border: none;
 }
 
-/* line 249, ../sass/components/_menus.scss */
+/* line 248, ../sass/components/_menus.scss */
 ul.primary {
   border-bottom: 1px solid #343434;
 }
-/* line 251, ../sass/components/_menus.scss */
+/* line 250, ../sass/components/_menus.scss */
 ul.primary li {
   display: inline-block;
   list-style: none;
@@ -1334,11 +1333,11 @@ ul.primary li {
   margin-right: 0.5em;
   padding: 0 1em;
 }
-/* line 261, ../sass/components/_menus.scss */
+/* line 260, ../sass/components/_menus.scss */
 ul.primary li a {
   text-decoration: none;
 }
-/* line 265, ../sass/components/_menus.scss */
+/* line 264, ../sass/components/_menus.scss */
 ul.primary li.toggled {
   background-color: #fefefe;
 }

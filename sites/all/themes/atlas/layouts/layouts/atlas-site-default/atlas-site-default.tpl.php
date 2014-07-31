@@ -51,6 +51,7 @@
     <div class="footer-wrapper">
       <footer class="grid-container">
         <?php print $content['footer']; ?>
+        <div class="copyright"><p>Copyright &copy; <?php echo(date("Y",time ())); ?>Alliance for Workforce Development, Inc. All Rights Reserved.</p></div>
       </footer>
     </div>
   <?php else: ?>
