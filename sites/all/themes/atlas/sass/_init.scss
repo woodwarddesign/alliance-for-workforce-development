@@ -3,7 +3,13 @@
 $legacy-support-for-ie6: false;
 $legacy-support-for-ie7: false;
 
+// layout variables
+
+$max-width: 1000px;
+$pad: 35px;
+
 // breakpoints
+
 $tab: 40em;
 $desk: 60em;
 
