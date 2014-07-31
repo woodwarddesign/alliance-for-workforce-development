@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implementation of hook_panels_layouts()
+ */
+// Plugin definition
+$plugin = array(
+  'title' => t('Atlas stacked'),
+  'category' => t('Columns: 1'),
+  'icon' => 'icon.png',
+  'theme' => 'atlas-site-default',
+  'css' => 'css/panels-layouts/site-default.css',
+  'regions' => array(
+  'branding' => t('Branding'),
+  'menu' => t('Menu'),
+  'main_content' => t('Main Content'),
+  'footer' => t('Footer Content'),
+  ),
+);
