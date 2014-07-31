@@ -97,7 +97,7 @@ function atlas_preprocess_menu_tree(&$variables) {
 }
 
 function atlas_menu_tree(&$variables) {
-  return '<nav class="menu ' . $variables['menu_parent'] . '">' . $variables['tree'] . '</nav>';
+  return '<ul class="menu ' . $variables['menu_parent'] . '">' . $variables['tree'] . '</ul>';
 }
 
 function atlas_page_alter(&$page) {
