@@ -26,6 +26,7 @@ img.header__logo-image {
 }
 
 .header__name-and-slogan {
+  @include element-invisible;
   float: left;
  }
 
