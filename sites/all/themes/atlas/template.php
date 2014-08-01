@@ -12,6 +12,8 @@
 function atlas_preprocess_html(&$variables, $hook) {
 
   drupal_add_css('http://fonts.googleapis.com/css?family=Roboto:300,400,500', array('type' => 'external', 'weight' => 0,));
+    drupal_add_js('http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js',
+    array('type' => 'external', 'weight' => -50000));
   drupal_add_js(drupal_get_path('theme', 'atlas') .'/js/fitvids.js');
   drupal_add_js(drupal_get_path('theme', 'atlas') .'/js/velocity.js');
   drupal_add_js(drupal_get_path('theme', 'atlas') .'/js/scripts.js');

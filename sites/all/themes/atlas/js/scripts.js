@@ -8,11 +8,7 @@
 
   // start custom
 
-  $(window).load(function() {
-
-    // add a class to indicate js enabled on client
-    $('body').addClass('js');
-    $('body').removeClass('no-js');
+  $(document).ready(function() {
 
     $("body").fitVids();
 
@@ -106,8 +102,6 @@
       fireMobileFunctions();
     });
 
-		});
-
     function is_touch_device() {
      return (('ontouchstart' in window) || (navigator.MaxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
     }
@@ -116,6 +110,14 @@
        $('body').removeClass('no-touch');
        $('body').addClass('touch');
     }
+
+    });
+
+    $(window).load(function() {
+      // add a class to indicate js enabled on client
+      $('body').addClass('js');
+      $('body').removeClass('no-js');
+    });
 
 // end custom
 
