@@ -4,19 +4,18 @@
  *
  */
 
-(function ($, Drupal, window, document, undefined) {
-
-
-// To learn about behaviors, see https://drupal.org/node/756722#behaviors
-Drupal.behaviors.my_custom_behavior = {
-  attach: function(context, settings) {
+(function ($) {
 
   // start custom
 
-  $(document).ready(function() {
+  $(window).load(function() {
 
-  //set up variable for mobile. set this to keep track of width so functions are run only on transition from
-  // mobile to desktop and vice versa. if this isn't done, functions will fire constantly as window is resized
+    // add a class to indicate js enabled on client
+    $('body').addClass('js');
+    $('body').removeClass('no-js');
+
+    //set up variable for mobile. set this to keep track of width so functions are run only on transition from
+    // mobile to desktop and vice versa. if this isn't done, functions will fire constantly as window is resized
   var mobile = 0;
   // keeps track if function has been run
   var functionStatus = 0;
@@ -56,9 +55,6 @@ Drupal.behaviors.my_custom_behavior = {
   }
 
   fireMobileFunctions();
-
-  // add a class to indicate js enabled on client
-  $('body').addClass('js');
 
   // toggle menu
 
@@ -121,8 +117,4 @@ Drupal.behaviors.my_custom_behavior = {
 
 // end custom
 
-  }
-};
-
-
-})(jQuery, Drupal, this, this.document);
+})(jQuery);

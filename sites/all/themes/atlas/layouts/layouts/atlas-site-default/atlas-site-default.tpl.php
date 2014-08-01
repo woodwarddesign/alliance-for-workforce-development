@@ -1,6 +1,6 @@
 <div class="atlas-site-default">
-  <section class="header-wrapper">
-    <header class="header grid-container" id="header" role="banner">
+  <header class="header-wrapper">
+    <div class="header grid-container" id="header" role="banner">
   	   <?php if ($content['branding']): ?>
             <div class="region-branding">
               <?php print $content['branding']; ?>
@@ -13,8 +13,8 @@
              </div>
            <?php else: ?>
          <?php endif; ?>
-    </header>
-  </section>
+    </div>
+  </header>
   <?php if ($content['preface']): ?>
     <section class="preface-wrapper">
       <?php print $content['preface']; ?>
@@ -46,13 +46,13 @@
   <?php else: ?>
   <?php endif; ?>
 
-    <section class="footer-wrapper">
-      <footer class="grid-container">
+    <footer class="footer-wrapper">
+      <div class="grid-container">
         <?php if ($content['footer']): ?>
           <?php print $content['footer']; ?>
         <?php else: ?>
         <?php endif; ?>
         <div class="copyright"><p>Copyright &copy; <?php echo(date("Y",time ())); ?> Alliance for Workforce Development, Inc. All Rights Reserved.</p></div>
-      </footer>
-    </section>
+      </div>
+    </footer>
 </div>

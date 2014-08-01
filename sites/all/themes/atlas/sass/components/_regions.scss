@@ -51,6 +51,7 @@ img.header__logo-image {
     bottom: 2rem;
     color: $white;
     left: 0;
+    max-width: 646px; // maximum width of content region at desktop breakpoint of 60em
     padding-left: $pad / 2;
     position: absolute;
     z-index: 10;
@@ -61,7 +62,6 @@ img.header__logo-image {
 
 #content {
   background: $base-color;
-  overflow: hidden;
 }
 
 #content .messages {
@@ -73,13 +73,11 @@ img.header__logo-image {
   }
 }
 
-.breadcrumb {
-  li {
-    display: inline-block;
-    list-style: none;
-    padding: 2rem 0;
-    font-family: $sans;
-    font-size: $base-font-size * .725;
+.region-sidebar-second {
+  @include breakpoint($desk) {
+    background: $white;
+    margin-top: -6rem;
+    min-height: 15rem;
   }
 }
 

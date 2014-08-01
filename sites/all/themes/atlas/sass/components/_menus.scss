@@ -81,6 +81,7 @@ a.menu-link {
 
 .main-menu-1 li a,
 a.menu-link {
+  color: $white;
   font-family: $header-font-family;
   font-weight: 100;
 }
@@ -98,7 +99,6 @@ footer .region-footer p a.toggled {
 }
 
 .main-menu-1 li ul  {
-  background: $gray;
   clear: both;
   list-style: none;
   left: 20px;
@@ -113,9 +113,6 @@ footer .region-footer p a.toggled {
     &:last-child {
       border-bottom: none;
     }
-  }
-  @include breakpoint($desk) {
-    background: $base-color;
   }
 }
 
@@ -144,11 +141,11 @@ footer .region-footer p a.toggled {
   		text-align: right;
   	}
 
-  .js .main-menu-1 {
-    max-height: none;
-    overflow: visible;
-    z-index: 1000;
-  }
+    .js .main-menu-1 {
+      max-height: none;
+      overflow: visible;
+      z-index: 1000;
+    }
 
     .main-menu-1 {
       margin-top: 0;
