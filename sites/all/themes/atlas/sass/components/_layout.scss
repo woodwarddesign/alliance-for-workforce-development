@@ -28,6 +28,13 @@
 
 @include breakpoint($desk) {
 
+  .no-sidebars .region-content {
+    float: left;
+    width: 67%;
+    &:after {
+      @include clear-it;
+    }
+
   // one sidebar, sidebar second
   .one-sidebar.sidebar-second {
     .region-content {

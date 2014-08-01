@@ -1,12 +1,9 @@
 <div id="page">
-
   <div class="header-wrapper">
     <header class="header grid-container" id="header" role="banner">
       <div class="branding-wrapper">
       <div class="region region-branding">
-        <?php if ($logo): ?>
-          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
-        <?php endif; ?>
+        <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="/sites/all/themes/atlas/images/logo.svg" alt="Home" class="header__logo-image"></a>
 
         <?php if ($site_name || $site_slogan): ?>
           <div class="header__name-and-slogan" id="name-and-slogan">
