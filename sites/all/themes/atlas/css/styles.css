@@ -686,11 +686,16 @@ label {
 }
 
 /* line 9, ../sass/components/_forms.scss */
+*:focus {
+  outline: none;
+}
+
+/* line 13, ../sass/components/_forms.scss */
 .form-type-checkbox label {
   display: inline-block;
 }
 
-/* line 14, ../sass/components/_forms.scss */
+/* line 18, ../sass/components/_forms.scss */
 fieldset,
 .form-type-password-confirm {
   border: 1px solid #444444;
@@ -698,7 +703,7 @@ fieldset,
   padding: 1rem;
 }
 
-/* line 23, ../sass/components/_forms.scss */
+/* line 27, ../sass/components/_forms.scss */
 .description,
 .password-strength-title,
 .password-confirm {
@@ -706,7 +711,7 @@ fieldset,
   font-size: 15px;
 }
 
-/* line 35, ../sass/components/_forms.scss */
+/* line 39, ../sass/components/_forms.scss */
 input[type='text'],
 textarea,
 select,
@@ -726,7 +731,7 @@ input[type="tel"] {
   position: relative;
 }
 
-/* line 47, ../sass/components/_forms.scss */
+/* line 51, ../sass/components/_forms.scss */
 textarea {
   display: block;
   box-sizing: border-box;
@@ -735,7 +740,7 @@ textarea {
   width: 100%;
 }
 
-/* line 59, ../sass/components/_forms.scss */
+/* line 63, ../sass/components/_forms.scss */
 button, input[type="reset"],
 input[type="submit"],
 input[type="button"],
@@ -756,7 +761,7 @@ input[type="button"],
   transition: all .3s;
 }
 
-/* line 76, ../sass/components/_forms.scss */
+/* line 80, ../sass/components/_forms.scss */
 button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
@@ -768,7 +773,7 @@ input[type="button"]:hover,
   cursor: pointer;
 }
 
-/* line 89, ../sass/components/_forms.scss */
+/* line 93, ../sass/components/_forms.scss */
 input[type='text']:focus,
 textarea:focus,
 select:focus,
@@ -781,19 +786,19 @@ input[type="tel"]:focus {
   box-shadow: 0 0 2px #237ad9 inset;
 }
 
-/* line 94, ../sass/components/_forms.scss */
+/* line 98, ../sass/components/_forms.scss */
 .form-required {
   color: #237ad9;
   font-weight: bold;
 }
 
-/* line 100, ../sass/components/_forms.scss */
+/* line 104, ../sass/components/_forms.scss */
 .form-item {
   margin-bottom: 1.5rem;
   overflow: hidden;
 }
 
-/* line 108, ../sass/components/_forms.scss */
+/* line 112, ../sass/components/_forms.scss */
 .form-item-pass-pass1,
 .form-item-pass-pass2 {
   overflow: visible;
@@ -801,25 +806,25 @@ input[type="tel"]:focus {
   width: 40%;
 }
 
-/* line 114, ../sass/components/_forms.scss */
+/* line 118, ../sass/components/_forms.scss */
 .page-user input.password-confirm {
   margin-top: 0;
 }
 
-/* line 119, ../sass/components/_forms.scss */
+/* line 123, ../sass/components/_forms.scss */
 .form-type-password-confirm {
   padding-bottom: 3rem;
   position: relative;
 }
 
-/* line 125, ../sass/components/_forms.scss */
+/* line 129, ../sass/components/_forms.scss */
 .password-strength,
 .password-confirm {
   display: block;
   margin-bottom: .5rem;
   padding: .5rem 0;
 }
-/* line 131, ../sass/components/_forms.scss */
+/* line 135, ../sass/components/_forms.scss */
 .password-strength .password-indicator div,
 .password-confirm .password-indicator div {
   background: #f76558;
@@ -827,35 +832,35 @@ input[type="tel"]:focus {
   width: 0;
 }
 
-/* line 138, ../sass/components/_forms.scss */
+/* line 142, ../sass/components/_forms.scss */
 .password-strength-title {
   margin-bottom: .5rem;
 }
 
-/* line 142, ../sass/components/_forms.scss */
+/* line 146, ../sass/components/_forms.scss */
 .password-strength-text {
   font-size: 15px;
   font-weight: bold;
 }
 
-/* line 148, ../sass/components/_forms.scss */
+/* line 152, ../sass/components/_forms.scss */
 .password-confirm .error,
 .password-confirm .ok {
   font-size: 15px;
   font-weight: bold;
 }
 
-/* line 153, ../sass/components/_forms.scss */
+/* line 157, ../sass/components/_forms.scss */
 .password-strength-text {
   margin-top: .5rem;
 }
 
-/* line 157, ../sass/components/_forms.scss */
+/* line 161, ../sass/components/_forms.scss */
 .password-confirm .error {
   margin-top: .3rem;
 }
 
-/* line 161, ../sass/components/_forms.scss */
+/* line 165, ../sass/components/_forms.scss */
 .password-suggestions {
   background: #efefef;
   border: 1px solid #dddddd;
@@ -1421,7 +1426,7 @@ img.header__logo-image {
 
 @media (min-width: 60em) {
   /* line 76, ../sass/components/_regions.scss */
-  .region-sidebar-second {
+  .front .region-sidebar-second {
     background: #fefefe;
     margin-top: -6rem;
     min-height: 15rem;

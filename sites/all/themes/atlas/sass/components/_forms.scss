@@ -6,6 +6,10 @@ label {
   margin-bottom: .5rem;
 }
 
+*:focus {
+  outline: none;
+}
+
 .form-type-checkbox label {
   display: inline-block;
 }

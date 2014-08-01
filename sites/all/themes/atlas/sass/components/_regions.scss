@@ -73,7 +73,7 @@ img.header__logo-image {
   }
 }
 
-.region-sidebar-second {
+.front .region-sidebar-second {
   @include breakpoint($desk) {
     background: $white;
     margin-top: -6rem;
