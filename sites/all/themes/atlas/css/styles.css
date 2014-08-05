@@ -1398,7 +1398,7 @@ img.header__logo-image {
   /* line 44, ../sass/components/_regions.scss */
   .front .region-branding {
     position: absolute;
-    top: 40px;
+    top: 50px;
     padding-bottom: 0;
   }
 }

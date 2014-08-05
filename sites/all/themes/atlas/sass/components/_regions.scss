@@ -44,7 +44,7 @@ img.header__logo-image {
 .front .region-branding {
   @include breakpoint($desk) {
   	position: absolute;
-		top: 40px;
+		top: 50px;
     padding-bottom: 0;
   }	
 }
