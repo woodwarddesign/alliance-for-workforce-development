@@ -73,11 +73,23 @@ img.header__logo-image {
 }
 
 .region-sidebar-second {
+//	overflow: hidden;
 	@include breakpoint($desk) {
 	@include background-image(linear-gradient($white, $beige));
 	border-left: 1px solid $dark-beige;
 	border-right: 1px solid $dark-beige;
 	padding: 20px;		
+		&:before {
+			content: "";
+			display: block;
+			height: 8px;
+			width: 115.5%;
+			position: relative;
+			top: -20px;
+			left: -22px;
+			border-bottom: 1px solid $dark-gray;
+			background-color: $blue;
+		}
 	}
 }
 
