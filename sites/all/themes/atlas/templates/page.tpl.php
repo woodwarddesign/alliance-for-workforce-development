@@ -3,7 +3,7 @@
     <header class="header grid-container" id="header" role="banner">
       <div class="branding-wrapper">
       <div class="region region-branding">
-        <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="/sites/all/themes/atlas/images/logo.svg" alt="Home" class="header__logo-image"></a>
+        <a href="/" title="Home" rel="home" class="header__logo" id="logo"><img src="sites/all/themes/atlas/images/logo.svg" alt="Home" class="header__logo-image"></a>
 
         <?php if ($site_name || $site_slogan): ?>
           <div class="header__name-and-slogan" id="name-and-slogan">

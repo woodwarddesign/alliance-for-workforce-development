@@ -62,27 +62,38 @@ img.header__logo-image {
 // content region
 
 #content {
-  background: $base-color;
 }
 
 #content .messages {
   margin-bottom: $vert-spacing * .5;
   padding: 20px;
   &.status {
-    background: $info;
     border: 1px solid darken($info, 20%);
   }
 }
 
+.region-sidebar-second {
+	@include background-image(linear-gradient($white, $beige));
+	border-left: 1px solid $dark-beige;
+	border-right: 1px solid $dark-beige;
+}
+
 .front .region-sidebar-second {
   @include breakpoint($desk) {
-    background: $white;
     margin-top: -6rem;
     min-height: 15rem;
   }
 }
 
 // postscript region
+
+.postscript-wrapper {
+	background-color: $blue;
+	
+	p, a {
+		color: $white;
+	}
+}
 
 
 // footer region
