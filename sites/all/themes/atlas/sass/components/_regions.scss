@@ -73,10 +73,12 @@ img.header__logo-image {
 }
 
 .region-sidebar-second {
+	@include breakpoint($desk) {
 	@include background-image(linear-gradient($white, $beige));
 	border-left: 1px solid $dark-beige;
 	border-right: 1px solid $dark-beige;
-	padding: 20px;
+	padding: 20px;		
+	}
 }
 
 .front .region-sidebar-second {
