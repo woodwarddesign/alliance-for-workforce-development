@@ -76,6 +76,7 @@ img.header__logo-image {
 	@include background-image(linear-gradient($white, $beige));
 	border-left: 1px solid $dark-beige;
 	border-right: 1px solid $dark-beige;
+	padding: 20px;
 }
 
 .front .region-sidebar-second {
@@ -89,6 +90,24 @@ img.header__logo-image {
 
 .postscript-wrapper {
 	background-color: $blue;
+	
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 3px;
+		background-color: $light-gold;
+		border-top: 1px solid $dark-gray;
+		top: 0;
+	}
+	
+	&:after {
+		top: inherit;
+		bottom: 0;
+		border-top: none;
+		border-bottom: 1px solid $dark-gray;
+	}
 	
 	p, a {
 		color: $white;
