@@ -553,7 +553,7 @@ body {
   background-color: #f2f1e8;
   color: #444444;
   font-size: 17px;
-  font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 /* line 17, ../sass/_base.scss */
@@ -921,8 +921,8 @@ table tbody > tr:nth-child(even) > th {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   color: #222222;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
   line-height: 110%;
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -1131,7 +1131,7 @@ a.menu-link {
 .main-menu-1 li a,
 a.menu-link {
   color: #fefefe;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 
@@ -1455,18 +1455,32 @@ img.header__logo-image {
 /* line 101, ../sass/components/_regions.scss */
 footer {
   clear: both;
+  padding: 7px 0;
 }
 
-/* line 105, ../sass/components/_regions.scss */
+/* line 106, ../sass/components/_regions.scss */
+.footer-wrapper {
+  background-color: #222222;
+}
+/* line 108, ../sass/components/_regions.scss */
+.footer-wrapper p, .footer-wrapper a {
+  color: #fefefe;
+}
+/* line 113, ../sass/components/_regions.scss */
+.footer-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 119, ../sass/components/_regions.scss */
 .region-footer {
   padding: 10px 0;
 }
 
-/* line 109, ../sass/components/_regions.scss */
+/* line 123, ../sass/components/_regions.scss */
 .copyright {
   padding-bottom: 10px;
 }
-/* line 111, ../sass/components/_regions.scss */
+/* line 125, ../sass/components/_regions.scss */
 .copyright p {
   float: left;
   font-size: 12.5px;

@@ -100,6 +100,20 @@ img.header__logo-image {
 
 footer {
   clear: both;
+  padding: 7px 0;
+}
+
+.footer-wrapper {
+	background-color: $black;
+	p, a {
+		color: $white;
+	}
+	
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .region-footer {

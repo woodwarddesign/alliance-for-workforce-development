@@ -25,8 +25,8 @@ $h5-font-size: 0.83 * $base-font-size;
 $h6-font-size: 0.67 * $base-font-size;
 
 $courier: "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
-$sans: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-body: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-body: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 // Variables for fonts.
 $body-font: $sans-body;
@@ -36,7 +36,7 @@ $bold-font-weight: 500;
 $base-line-height: 1.4;
 
 $header-font-family: $sans;
-$header-font-weight: 300;
+$header-font-weight: 100;
 $header-font-style: normal;
 $header-line-height: 110%;
 $header-top-margin: 0;
