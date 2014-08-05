@@ -26,6 +26,12 @@
   }
 }
 
+.region-menu {
+	@include breakpoint($desk) {
+		float: right;
+	}
+}
+
 @include breakpoint($desk) {
 
   .no-sidebars .region-content {

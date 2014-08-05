@@ -6,8 +6,12 @@
 
 .header-wrapper {
   background: $dark-gray;
-  height: 95px;
+//  height: 95px;
   padding: 1rem 0;
+  border-bottom: 1px solid $light-gold;
+  @include breakpoint($desk) {
+	  padding: 0;
+  }
 }
 
 .not-front .header-wrapper {
@@ -36,6 +40,8 @@ img.header__logo-image {
   padding-bottom: 2rem;
   position: relative;
   @include breakpoint($desk) {
+  	position: absolute;
+		top: 40px;
     padding-bottom: 0;
   }
 }
