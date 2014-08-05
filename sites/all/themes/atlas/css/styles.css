@@ -1468,39 +1468,48 @@ img.header__logo-image {
   border-bottom: 1px solid #343434;
 }
 /* line 114, ../sass/components/_regions.scss */
+.postscript-wrapper .postscript {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 119, ../sass/components/_regions.scss */
 .postscript-wrapper p, .postscript-wrapper a {
   color: #fefefe;
 }
+/* line 124, ../sass/components/_regions.scss */
+.postscript-wrapper p:last-child {
+  margin-bottom: 0;
+}
 
-/* line 122, ../sass/components/_regions.scss */
+/* line 133, ../sass/components/_regions.scss */
 footer {
   clear: both;
   padding: 7px 0;
 }
 
-/* line 127, ../sass/components/_regions.scss */
+/* line 138, ../sass/components/_regions.scss */
 .footer-wrapper {
   background-color: #222222;
 }
-/* line 129, ../sass/components/_regions.scss */
+/* line 140, ../sass/components/_regions.scss */
 .footer-wrapper p, .footer-wrapper a {
   color: #fefefe;
 }
-/* line 134, ../sass/components/_regions.scss */
+/* line 145, ../sass/components/_regions.scss */
 .footer-wrapper p:last-child {
   margin-bottom: 0;
 }
 
-/* line 140, ../sass/components/_regions.scss */
+/* line 151, ../sass/components/_regions.scss */
 .region-footer {
   padding: 10px 0;
 }
 
-/* line 144, ../sass/components/_regions.scss */
+/* line 155, ../sass/components/_regions.scss */
 .copyright {
   padding-bottom: 10px;
 }
-/* line 146, ../sass/components/_regions.scss */
+/* line 157, ../sass/components/_regions.scss */
 .copyright p {
   float: left;
   font-size: 12.5px;

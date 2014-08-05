@@ -111,8 +111,19 @@ img.header__logo-image {
 		border-bottom: 1px solid $dark-gray;
 	}
 	
+	.postscript {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	
 	p, a {
 		color: $white;
+	}
+	
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }
 
