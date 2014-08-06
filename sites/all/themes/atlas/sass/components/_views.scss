@@ -18,6 +18,18 @@
 
 // events view layout modification
 
+.event-item {
+  margin-bottom:  $vert-spacing * .5;
+  padding-bottom:  $vert-spacing * .5;
+  &.last {
+    margin-bottom: 0;
+  }
+  @include breakpoint($desk) {
+    margin-bottom:  0;
+    padding-bottom:  0;
+  }
+}
+
 .event-item .grid-2-3 {
   float: left;
   padding: 0 $pad * .5;

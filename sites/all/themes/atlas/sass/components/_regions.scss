@@ -46,7 +46,7 @@ img.header__logo-image {
   	position: absolute;
 		top: 50px;
     padding-bottom: 0;
-  }	
+  }
 }
 
 // preface region
@@ -54,7 +54,7 @@ img.header__logo-image {
 .preface-wrapper {
 //  margin-bottom: 1rem;
   line-height: 0;
-  
+
   img {
     height: auto;
     width: 100%;
@@ -74,14 +74,14 @@ img.header__logo-image {
 
 .content-wrapper {
 	padding-top: 1rem;
-	
+
 	&:before {
 		content: "";
 		display: block;
 		height: 4px;
 		background-color: $light-gold;
 		border-bottom: 1px solid $dark-beige;
-		margin-top: -1rem; 	
+		margin-top: -1rem;
 		margin-bottom: 1.5rem;
 	}
 }
@@ -100,7 +100,7 @@ img.header__logo-image {
 	@include background-image(linear-gradient($white, $beige));
 	border-left: 1px solid $dark-beige;
 	border-right: 1px solid $dark-beige;
-	padding: 20px;		
+	padding: 20px;
 		&:before {
 			content: "";
 			display: block;
@@ -126,7 +126,7 @@ img.header__logo-image {
 
 .postscript-wrapper {
 	background-color: $blue;
-	
+
 	&:before,
 	&:after {
 		content: "";
@@ -137,28 +137,34 @@ img.header__logo-image {
 		border-top: 1px solid $dark-gray;
 		top: 0;
 	}
-	
+
 	&:after {
 		top: inherit;
 		bottom: 0;
 		border-top: none;
 		border-bottom: 1px solid $dark-gray;
 	}
-	
+
 	.postscript {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-	
+
 	p, a {
 		color: $white;
 	}
-	
+
 	p {
 		&:last-child {
 			margin-bottom: 0;
 		}
 	}
+}
+
+// bottom region
+
+.bottom-wrapper {
+  padding: $vert-spacing 0;
 }
 
 
@@ -174,7 +180,7 @@ footer {
 	p, a {
 		color: $white;
 	}
-	
+
 	p {
 		&:last-child {
 			margin-bottom: 0;
