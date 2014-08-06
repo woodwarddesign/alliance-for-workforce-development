@@ -668,6 +668,48 @@ dd {
   display: block;
 }
 
+/* line 21, ../sass/components/_views.scss */
+.event-item .grid-2-3 {
+  float: left;
+  padding: 0 17.5px;
+  width: 67%;
+}
+/* line 25, ../sass/components/_views.scss */
+.event-item .grid-2-3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 28, ../sass/components/_views.scss */
+.event-item .grid-2-3.last {
+  padding-right: 0;
+}
+/* line 31, ../sass/components/_views.scss */
+.event-item .grid-2-3.first {
+  padding-left: 0;
+}
+
+/* line 36, ../sass/components/_views.scss */
+.event-item .grid-1-3 {
+  float: left;
+  padding: 0 17.5px;
+  width: 33%;
+}
+/* line 40, ../sass/components/_views.scss */
+.event-item .grid-1-3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 43, ../sass/components/_views.scss */
+.event-item .grid-1-3.last {
+  padding-right: 0;
+}
+/* line 46, ../sass/components/_views.scss */
+.event-item .grid-1-3.first {
+  padding-left: 0;
+}
+
 /* line 3, ../sass/components/_blocks.scss */
 .sidebars .block {
   margin-bottom: 2rem;
