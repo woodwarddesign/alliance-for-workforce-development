@@ -20,6 +20,7 @@
 
 .event-item {
   margin-bottom:  $vert-spacing * .5;
+  overflow: hidden;
   padding-bottom:  $vert-spacing * .5;
   &.last {
     margin-bottom: 0;
