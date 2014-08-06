@@ -651,27 +651,27 @@ dd {
 /* line 3, ../sass/components/_views.scss */
 .view .row {
   margin-bottom: 1rem;
+  overflow: hidden;
   padding-bottom: 1rem;
 }
-/* line 6, ../sass/components/_views.scss */
+/* line 7, ../sass/components/_views.scss */
 .view .row p:last-child {
   margin-bottom: 0;
 }
 
-/* line 11, ../sass/components/_views.scss */
+/* line 12, ../sass/components/_views.scss */
 .view .row.last {
   border-bottom: none;
 }
 
-/* line 15, ../sass/components/_views.scss */
+/* line 16, ../sass/components/_views.scss */
 .view-front-feature img {
   display: block;
 }
 
-/* line 21, ../sass/components/_views.scss */
+/* line 22, ../sass/components/_views.scss */
 .event-item {
   margin-bottom: 1rem;
-  overflow: hidden;
   padding-bottom: 1rem;
 }
 /* line 25, ../sass/components/_views.scss */
@@ -679,7 +679,7 @@ dd {
   margin-bottom: 0;
 }
 @media (min-width: 60em) {
-  /* line 21, ../sass/components/_views.scss */
+  /* line 22, ../sass/components/_views.scss */
   .event-item {
     margin-bottom: 0;
     padding-bottom: 0;

@@ -2,6 +2,7 @@
 
 .view .row {
   margin-bottom:  $vert-spacing * .5;
+  overflow: hidden;
   padding-bottom:  $vert-spacing * .5;
   p:last-child {
     margin-bottom: 0;
@@ -20,7 +21,6 @@
 
 .event-item {
   margin-bottom:  $vert-spacing * .5;
-  overflow: hidden;
   padding-bottom:  $vert-spacing * .5;
   &.last {
     margin-bottom: 0;
