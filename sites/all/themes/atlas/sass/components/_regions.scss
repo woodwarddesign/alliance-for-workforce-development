@@ -6,8 +6,12 @@
 
 .header-wrapper {
   background: $dark-gray;
-  height: 95px;
+//  height: 95px;
   padding: 1rem 0;
+  border-bottom: 1px solid $light-gold;
+  @include breakpoint($desk) {
+	  padding: 0;
+  }
 }
 
 .not-front .header-wrapper {
@@ -35,15 +39,22 @@ img.header__logo-image {
   overflow: hidden;
   padding-bottom: 2rem;
   position: relative;
+}
+
+.front .region-branding {
   @include breakpoint($desk) {
+  	position: absolute;
+		top: 50px;
     padding-bottom: 0;
-  }
+  }	
 }
 
 // preface region
 
 .preface-wrapper {
-  margin-bottom: 1rem;
+//  margin-bottom: 1rem;
+  line-height: 0;
+  
   img {
     height: auto;
     width: 100%;
@@ -61,22 +72,51 @@ img.header__logo-image {
 
 // content region
 
-#content {
-  background: $base-color;
+.content-wrapper {
+	padding-top: 1rem;
+	
+	&:before {
+		content: "";
+		display: block;
+		height: 4px;
+		background-color: $light-gold;
+		border-bottom: 1px solid $dark-beige;
+		margin-top: -1rem; 	
+		margin-bottom: 1.5rem;
+	}
 }
 
 #content .messages {
   margin-bottom: $vert-spacing * .5;
   padding: 20px;
   &.status {
-    background: $info;
     border: 1px solid darken($info, 20%);
   }
 }
 
+.region-sidebar-second {
+//	overflow: hidden;
+	@include breakpoint($desk) {
+	@include background-image(linear-gradient($white, $beige));
+	border-left: 1px solid $dark-beige;
+	border-right: 1px solid $dark-beige;
+	padding: 20px;		
+		&:before {
+			content: "";
+			display: block;
+			height: 8px;
+			width: 115.5%;
+			position: relative;
+			top: -20px;
+			left: -22px;
+			border-bottom: 1px solid $dark-gray;
+			background-color: $blue;
+		}
+	}
+}
+
 .front .region-sidebar-second {
   @include breakpoint($desk) {
-    background: $white;
     margin-top: -6rem;
     min-height: 15rem;
   }
@@ -84,11 +124,62 @@ img.header__logo-image {
 
 // postscript region
 
+.postscript-wrapper {
+	background-color: $blue;
+	
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 3px;
+		background-color: $light-gold;
+		border-top: 1px solid $dark-gray;
+		top: 0;
+	}
+	
+	&:after {
+		top: inherit;
+		bottom: 0;
+		border-top: none;
+		border-bottom: 1px solid $dark-gray;
+	}
+	
+	.postscript {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	
+	p, a {
+		color: $white;
+	}
+	
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
 
 // footer region
 
 footer {
   clear: both;
+  padding: 7px 0;
+}
+
+.footer-wrapper {
+	background-color: $black;
+	p, a {
+		color: $white;
+	}
+	
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .region-footer {
