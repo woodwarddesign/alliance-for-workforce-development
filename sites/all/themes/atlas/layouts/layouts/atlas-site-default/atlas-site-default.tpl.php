@@ -45,7 +45,14 @@
     </section>
   <?php else: ?>
   <?php endif; ?>
-
+  <?php if ($content['bottom']): ?>
+    <section class="bottom-wrapper">
+      <div class="bottom grid-container">
+        <?php print $content['bottom']; ?>
+      </div>
+    </section>
+  <?php else: ?>
+  <?php endif; ?>
     <footer class="footer-wrapper">
       <div class="grid-container">
         <?php if ($content['footer']): ?>

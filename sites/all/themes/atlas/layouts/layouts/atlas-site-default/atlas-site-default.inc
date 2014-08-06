@@ -17,6 +17,7 @@ $plugin = array(
   'main_content' => t('Main Content'),
   'sidebar_content' => t('Sidebar Content'),
   'postscript' => t('Postscript'),
+  'bottom' => t('Bottom Content'),
   'footer' => t('Footer Content'),
   ),
 );
